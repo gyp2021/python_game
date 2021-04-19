@@ -7,7 +7,7 @@ root.geometry("500x400")
 canvas = tkinter.Canvas(root, width=800, height=600)
 canvas.pack()
 
-canvas.create_text(250, 25, text="문자열", fill="green", font=("Time New Roman", 24))
+canvas.create_text(250, 25, text="문자열", fill="green", font=("Times New Roman", 24))
 
 canvas.create_line(30, 30, 70, 80, fill="navy", width=5)
 
