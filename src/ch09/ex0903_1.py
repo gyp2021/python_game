@@ -1,5 +1,7 @@
 import tkinter
 
+padding = 24
+size = 72
 cursor_x = 0
 cursor_y = 0
 mouse_x = 0

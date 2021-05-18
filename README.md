@@ -1,1 +1,3 @@
 # Python Game
+
+$ python ./*/*.yp

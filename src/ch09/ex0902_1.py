@@ -21,8 +21,8 @@ def game_main():
     fnt = ("Times New Roman", 30)
     txt = "Mouse({}, {}) {}".format(mouse_x, mouse_y, mouse_c)
 
-    cvs.delete("TEST")
-    cvs.create_text(456, 384, text=txt, fill="black", font=fnt, tag="TEST")
+    cvs.delete("TEXT")
+    cvs.create_text(456, 384, text=txt, fill="black", font=fnt, tag="TEXT")
 
     root.after(100, game_main)
 
